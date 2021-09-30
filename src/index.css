@@ -11,3 +11,86 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.container{
+  width: 75%;
+  margin: 0 auto;
+}
+.bar{
+  display: flex;
+  justify-content: space-between;
+  margin: 70px 0;
+}
+.header h2{
+  font-weight: 400;
+  font-size: 22px;
+  margin: 0;
+}
+.header ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.header li{
+  display: inline-block;
+  margin: 0 20px;
+}
+#last{
+  margin-right: 0;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 140px;
+}
+.row{
+  display: flex;
+  justify-content: space-between;
+  margin: 140px 0;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.row h2{
+  margin: 0;
+}
+.row button{
+  border: solid 1px black;
+  background: none;
+  height: 30px;
+  font-weight: 600;
+  width: 90px;
+}
+.rowItem{
+  width: 15%;
+}
+.rowItemBack{
+  margin-bottom: 50px;
+  height: 30vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rowItemBack img{
+  background-size: cover;
+  width: 80%;
+}
+.descrription{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.price{
+  color: rgb(82, 82, 82);
+  font-weight: 600;
+}
+.rowD{
+  display: flex;
+  justify-content: space-between;
+}
+.rowD p{
+  margin: 0;
+}
